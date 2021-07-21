@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 12px;
+}
+h1{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size:  16px;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+    background-color:paleturquoise;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+.titulo{
+    text-align: center;
+    font-size: 4rem;
+    color:palevioletred;
+    margin-bottom: 3rem;
+}
+.titulo i{
+    color:yellow;
+}
+form{
+    width: 90%;
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: aliceblue;
+}
+input{
+    width: 90%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-size: 2.4rem;
+    background-color:aliceblue;
+    display: inline-block;
+}
+form i {
+    width: 8%;
+    font-size: 2.4rem;
+    color:silver;
+    display: inline-block;
+    margin-top: -8px;
+}
+.resultado-busqueda{
+    width: 95%;
+    max-width: 400px;
+    margin: 2rem auto;
+    
+}
+.item{
+    max-width: 80%;
+    margin: 1.6rem;
+    border-radius: 0.8rem;
+    background-color:rgb(54, 54, 54);
+    padding: 1rem;
+    text-align: center;
+}
+h2{
+    color:mediumturquoise;
+    margin: 2rem 1rem 0 0;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.estiloh4 {
+    color: whitesmoke;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+.container.inicial .titulo{
+    font-size: 8rem;
+}
+.container.inicial form{
+    max-width: 800px;
+}
+.container.inicial form input{
+    padding: 2rem;
+    font-size: 4rem;
+}
+
+/* MEDIAQUERIES */
+@media screen and (max-width: 1020px){
+    .item {
+        max-width: 40%;
+    }
+}
+@media screen and (max-width: 750px){
+    html {
+        font-size: 75%;
+    }
+    .resultado-busqueda {
+        flex-direction: column;
+    }
+    .item {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 450px){
+    html {
+        font-size: 50%;
+    }
+}
