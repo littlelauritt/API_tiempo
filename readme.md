@@ -1,4 +1,4 @@
-# APP con Edamam
+# APP del tiempo
 
 _Ejercicio Aplicación del tiempo_
 
